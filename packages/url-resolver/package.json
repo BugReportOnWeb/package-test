@@ -1,0 +1,10 @@
+{
+  "name": "@visual-sentinel/url-resolver",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "URL discovery and resolution for Visual Sentinel",
+  "main": "./url-resolver.ts",
+  "exports": {
+    ".": "./url-resolver.ts"
+  }
+}
