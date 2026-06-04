@@ -1,6 +1,5 @@
 {
   "workspaces": [
-    "BugReportOnWeb/packages/*",
-    "@BugReportOnWeb/packages/url-resolver"
+    "packages/*"
   ]
 }
