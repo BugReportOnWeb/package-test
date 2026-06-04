@@ -1,7 +1,6 @@
 {
-  "name": "package-test",
-  "private": true,
   "workspaces": [
-    "packages/*"
+    "BugReportOnWeb/packages/*",
+    "@BugReportOnWeb/packages/url-resolver"
   ]
 }
