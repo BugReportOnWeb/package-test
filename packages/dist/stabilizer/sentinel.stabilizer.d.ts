@@ -40,3 +40,4 @@ export interface StabilizerOptions {
  * await expect(page).toHaveScreenshot('blog-post.png', { fullPage: true });
  */
 export declare function stabilizePage(page: Page, options?: StabilizerOptions): Promise<void>;
+//# sourceMappingURL=sentinel.stabilizer.d.ts.map

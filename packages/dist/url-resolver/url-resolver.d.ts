@@ -34,3 +34,4 @@ export declare function resolveVisualUrls(configPath?: string): Promise<VisualPa
  * @returns An array of MigrationPair objects containing sourceUrl, targetUrl, and name for each pair.
  */
 export declare function resolveMigrationUrls(configPath?: string): Promise<MigrationPair[]>;
+//# sourceMappingURL=url-resolver.d.ts.map

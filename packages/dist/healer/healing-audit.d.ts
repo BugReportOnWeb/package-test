@@ -35,3 +35,4 @@ export declare function appendHealingRecord(record: HealingRecord): Promise<void
  * Useful to call at the end of a test run.
  */
 export declare function printHealingSummary(): void;
+//# sourceMappingURL=healing-audit.d.ts.map

@@ -32,3 +32,4 @@ export interface PatchSuggestion {
  * Suggest mode: writes a .patch.json next to the spec for review.
  */
 export declare function patchSpecFile(options: PatchOptions): Promise<void>;
+//# sourceMappingURL=spec-patcher.d.ts.map

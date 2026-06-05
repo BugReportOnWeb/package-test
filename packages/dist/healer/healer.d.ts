@@ -39,3 +39,4 @@ export declare function healLocator(page: Page, options: HealerOptions): Promise
  * Tries the original locator first. If it fails, calls healLocator and retries.
  */
 export declare function withHealing(page: Page, locator: Locator, action: (locator: Locator) => Promise<void>, options: HealerOptions): Promise<void>;
+//# sourceMappingURL=healer.d.ts.map

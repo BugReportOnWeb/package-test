@@ -6,6 +6,7 @@
     "moduleResolution": "NodeNext",
     "target": "ES2022",
     "declaration": true,
+	"declarationMap": true,
     "strict": true
   },
   "include": ["./**/*"],
