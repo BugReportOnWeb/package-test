@@ -1,5 +1,28 @@
 {
-  "workspaces": [
-    "packages/*"
-  ]
+  "name": "visual-sentinel",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-powered visual regression testing and self-healing framework for Playwright",
+  "exports": {
+    ".": "./packages/index.js"
+  },
+  "scripts": {
+    "dev": "serve demo/src -l 5173",
+    "test:visual": "playwright test --config=demo/playwright.visual.config.ts",
+    "test:visual:update": "playwright test --config=demo/playwright.visual.config.ts --update-snapshots",
+    "test:migration": "playwright test --config=demo/playwright.migration.config.ts",
+    "test:healing": "playwright test --config=demo/playwright.healing.config.ts",
+    "patch:spec": "npx tsx packages/healer/apply-patches.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^24.12.0",
+    "playwright": "^1.60.0",
+    "serve": "^14.2.4",
+    "typescript": "~5.9.3"
+  }
 }
