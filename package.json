@@ -5,7 +5,7 @@
   "type": "module",
   "description": "AI-powered visual regression testing and self-healing framework for Playwright",
   "exports": {
-    ".": "./packages/index.ts"
+    ".": "./packages/dist/index.js"
   },
   "scripts": {
     "dev": "serve demo/src -l 5173",
@@ -13,7 +13,8 @@
     "test:visual:update": "playwright test --config=demo/playwright.visual.config.ts --update-snapshots",
     "test:migration": "playwright test --config=demo/playwright.migration.config.ts",
     "test:healing": "playwright test --config=demo/playwright.healing.config.ts",
-    "patch:spec": "npx tsx packages/healer/apply-patches.ts"
+    "patch:spec": "npx tsx packages/healer/apply-patches.ts",
+    "build:packages": "tsc -b packages/tsconfig.json"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1"

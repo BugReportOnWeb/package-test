@@ -1,0 +1,1 @@
+{"root":["../index.ts","../healer/apply-patches.ts","../healer/healer.ts","../healer/healing-audit.ts","../healer/spec-patcher.ts","../stabilizer/sentinel.stabilizer.ts","../url-resolver/url-resolver.ts"],"version":"5.9.3"}
