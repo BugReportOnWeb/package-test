@@ -10,6 +10,9 @@
       "types": "./packages/dist/index.d.ts"
     }
   },
+  "files": [
+    "packages/dist"
+  ],
   "scripts": {
     "dev": "serve demo/src -l 5173",
     "test:visual": "playwright test --config=demo/playwright.visual.config.ts",
