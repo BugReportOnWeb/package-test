@@ -5,7 +5,10 @@
   "type": "module",
   "description": "AI-powered visual regression testing and self-healing framework for Playwright",
   "exports": {
-    ".": "./packages/dist/index.js"
+    ".": {
+      "import": "./packages/dist/index.js",
+      "types": "./packages/dist/index.d.ts"
+    }
   },
   "scripts": {
     "dev": "serve demo/src -l 5173",
